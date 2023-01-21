@@ -1,5 +1,5 @@
 10 CLS:KEY OFF
-20 LOCATE 9,10:PRINT "Bengawan Solo"
+20 LOCATE 10,10:PRINT "Bengawan Solo"
 30 PLAY "mnmbt120o3"
 40 PLAY "g8g8ae8g2o4c8d8e8d.c8e1"
 50 PLAY "o3g8e8g.o4e8d.o3b8g.a8"
