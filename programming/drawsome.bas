@@ -1,34 +1,34 @@
 10 '
 20 ' Draw something
 30 '
-40 clear,,3000
+40 CLEAR,,3000
 50 '
 60 ' Start with a clean slate
 70 '
-80 screen 2
-90 key off
-100 gosub 260
-110 cls
+80 SCREEN 2
+90 KEY OFF
+100 GOSUB 260
+110 CLS
 120 '
 130 ' Fill screen with lots of vertical lines
 140 '
-150 for x=1 to 640 step 2
-160 line (x,200*rnd)-(x,200*rnd)
-170 next x
+150 FOR X=1 TO 640 STEP 2
+160 LINE (X,200*RND)-(X,200*RND)
+170 NEXT X
 180 '
 190 ' Get the paint brush out
 200 '
-210 paint (320,100)
+210 PAINT (320,100)
 220 '
 230 ' One more time
 240 '
-250 run
+250 RUN
 260 '
 270 ' Subroutine: Thoroughly randomise the random numbers
-280 randomize val(mid$(time$,4,2)+right$(time$,2))
-290 temp$=time$
-300 while temp$=time$
-310 randomize 65000!*rnd-32500
-320 wend
-330 return
+280 RANDOMIZE VAL(MID$(TIME$,4,2)+RIGHT$(TIME$,2))
+290 TEMP$=TIME$
+300 WHILE TEMP$=TIME$
+310 RANDOMIZE 65000!*RND-32500
+320 WEND
+330 RETURN
 
