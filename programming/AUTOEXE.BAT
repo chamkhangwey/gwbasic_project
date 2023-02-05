@@ -1,0 +1,4 @@
+date
+time
+basica mainmenu
+
