@@ -1,8 +1,8 @@
 10 '
-20 ' Logaritsm
+20 ' Logarithm
 30 '
 40 CLS
-50 PRINT "The use of Logaritsm"
+50 PRINT "The use of Logarithm"
 60 PRINT:PRINT
 70 INPUT "Input a number";A
 80 PRINT
